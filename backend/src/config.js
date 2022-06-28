@@ -7,23 +7,110 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "YOUR COLLECTION NAME";
-const description = "Remember to replace this description";
+const namePrefix = "PadelManiaks";
+const description = "PadelManiaks is the first NFT Club dedicated to Padel, the fastest growing sport in the world. You can get exclusive access to Padel Perks, Services and Rewards by holding one or more of our unique 5,000 Padelmaniak NFTs. NFT holder Utility is the #1 Goal of the PadelManiaks collection.";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 const layerConfigurations = [
+
   {
-    growEditionSizeTo: 5,
+    growEditionSizeTo: 10, //With Hair and Jackets
     layersOrder: [
-      { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
+      { name: "Backgrounds" },
+      { name: "Benches" },
+      { name: "Shorts" },
+      { name: "Body" },
+      { name: "LeftWristbands" },
+      { name: "RightWristbands" },
+      { name: "LeftWristbandLogos" },
+      { name: "Tshirts" },
+      { name: "Neckchains" },
+      { name: "Jackets" },
+      { name: "Rackets" },
+      { name: "Hands" },
+      { name: "FacialExpressions" },
+      { name: "Piercings" },
+      { name: "Hair" },
+      { name: "Earrings" },
+      { name: "Beards" },
+      { name: "Moustaches" },
+      { name: "Glasses" },
     ],
   },
+  {
+    growEditionSizeTo: 20, // With Hair and Hoodies
+    layersOrder: [
+      { name: "Backgrounds" },
+      { name: "Benches" },
+      { name: "Shorts" },
+      { name: "Body" },
+      { name: "LeftWristbands" },
+      { name: "RightWristbands" },
+      { name: "LeftWristbandLogos" },
+      { name: "Tshirts" },
+      { name: "Neckchains" },
+      { name: "Rackets" },
+      { name: "Hands" },
+      { name: "Hoodies" },
+      { name: "FacialExpressions" },
+      { name: "Piercings" },
+      { name: "Hair" },
+      { name: "Earrings" },
+      { name: "Beards" },
+      { name: "Moustaches" },
+      { name: "Glasses" },
+    ],
+  },
+  {
+    growEditionSizeTo: 30, // With Cap and Jackets
+    layersOrder: [
+      { name: "Backgrounds" },
+      { name: "Benches" },
+      { name: "Shorts" },
+      { name: "Body" },
+      { name: "LeftWristbands" },
+      { name: "RightWristbands" },
+      { name: "LeftWristbandLogos" },
+      { name: "Tshirts" },
+      { name: "Neckchains" },
+      { name: "Jackets" },
+      { name: "Rackets" },
+      { name: "Hands" },
+      { name: "FacialExpressions" },
+      { name: "Piercings" },
+      { name: "Earrings" },
+      { name: "Beards" },
+      { name: "Moustaches" },
+      { name: "Glasses" },
+      { name: "Caps" },
+    ],
+  },
+  {
+    growEditionSizeTo: 40, // With Cap and Hoodies
+    layersOrder: [
+      { name: "Backgrounds" },
+      { name: "Benches" },
+      { name: "Shorts" },
+      { name: "Body" },
+      { name: "LeftWristbands" },
+      { name: "RightWristbands" },
+      { name: "LeftWristbandLogos" },
+      { name: "Tshirts" },
+      { name: "Neckchains" },
+      { name: "Rackets" },
+      { name: "Hands" },
+      { name: "Hoodies" },
+      { name: "FacialExpressions" },
+      { name: "Piercings" },
+      { name: "Earrings" },
+      { name: "Beards" },
+      { name: "Moustaches" },
+      { name: "Glasses" },
+      { name: "Caps" },
+    ],
+  },
+
+
 ];
 
 const shuffleLayerConfigurations = true;
@@ -31,13 +118,13 @@ const shuffleLayerConfigurations = true;
 const debugLogs = false;
 
 const format = {
-  width: 512,
-  height: 512,
+  width: 2000,
+  height: 3000,
   smoothing: false,
 };
 
 const extraMetadata = {
-  external_url: "https://codecats.xyz", // Replace with your website or remove this line if you do not have one.
+  external_url: "https://Padelmaniaks.com", // Replace with your website or remove this line if you do not have one.
 };
 
 // NFTPort Info
@@ -45,17 +132,17 @@ const extraMetadata = {
 // ** REQUIRED **
 const AUTH = process.env.NFTPORT_API_KEY; // Set this in the .env file to prevent exposing your API key when pushing to Github
 const LIMIT = 2; // Your API key rate limit
-const CHAIN = 'rinkeby'; // only rinkeby, polygon, or ethereum
+const CHAIN = 'polygon'; // only rinkeby, polygon, or ethereum
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-const CONTRACT_NAME = 'CRYPTOPUNKS';
-const CONTRACT_SYMBOL = 'CP';
+const CONTRACT_NAME = 'PADELMANIAKS';
+const CONTRACT_SYMBOL = 'PMS';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
-const OWNER_ADDRESS = 'YOUR WALLET ADDRESS HERE';
-const TREASURY_ADDRESS = 'YOUR WALLET ADDRESS HERE';
-const MAX_SUPPLY = 5000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
-const MINT_PRICE = 0.01; // Minting price per NFT. Rinkeby = ETH, Ethereum = ETH, Polygon = MATIC. CANNOT BE UPDATED!
-const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
+const OWNER_ADDRESS = '0xd24B4Bd00D6909707816AFA28846DB7f73d3f5b8';
+const TREASURY_ADDRESS = '0xd24B4Bd00D6909707816AFA28846DB7f73d3f5b8';
+const MAX_SUPPLY = 1000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
+const MINT_PRICE = 0.01; //********** I NEED TO UNDERSTAND WHICH CHAIN ARE WE ADDING THEM TO Minting price per NFT. Rinkeby = ETH, Ethereum = ETH, Polygon = MATIC. CANNOT BE UPDATED!
+const TOKENS_PER_MINT = 1000; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PUBLIC_MINT_START_DATE = "2022-03-20T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
