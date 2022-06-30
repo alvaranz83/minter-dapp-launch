@@ -109,11 +109,99 @@ const layerConfigurations = [
       { name: "Caps" },
     ],
   },
-
-
+  {
+    growEditionSizeTo: 50, // With Hair, Hoodies and No T-shirts
+    layersOrder: [
+      { name: "Backgrounds" },
+      { name: "Benches" },
+      { name: "Shorts" },
+      { name: "Body" },
+      { name: "LeftWristbands" },
+      { name: "RightWristbands" },
+      { name: "LeftWristbandLogos" },
+      { name: "Neckchains" },
+      { name: "Rackets" },
+      { name: "Hands" },
+      { name: "Hoodies" },
+      { name: "FacialExpressions" },
+      { name: "Piercings" },
+      { name: "Hair" },
+      { name: "Earrings" },
+      { name: "Beards" },
+      { name: "Moustaches" },
+      { name: "Glasses" },
+    ],
+  },
+  {
+    growEditionSizeTo: 60, // With Cap, Hoodies and No-Tshirts
+    layersOrder: [
+      { name: "Backgrounds" },
+      { name: "Benches" },
+      { name: "Shorts" },
+      { name: "Body" },
+      { name: "LeftWristbands" },
+      { name: "RightWristbands" },
+      { name: "LeftWristbandLogos" },
+      { name: "Neckchains" },
+      { name: "Rackets" },
+      { name: "Hands" },
+      { name: "Hoodies" },
+      { name: "FacialExpressions" },
+      { name: "Piercings" },
+      { name: "Earrings" },
+      { name: "Beards" },
+      { name: "Moustaches" },
+      { name: "Glasses" },
+      { name: "Caps" },
+    ],
+  },
+  {
+    growEditionSizeTo: 70, //With Hair and No-Tshirt
+    layersOrder: [
+      { name: "Backgrounds" },
+      { name: "Benches" },
+      { name: "Shorts" },
+      { name: "Body" },
+      { name: "LeftWristbands" },
+      { name: "RightWristbands" },
+      { name: "LeftWristbandLogos" },
+      { name: "Neckchains" },
+      { name: "Rackets" },
+      { name: "Hands" },
+      { name: "FacialExpressions" },
+      { name: "Piercings" },
+      { name: "Hair" },
+      { name: "Earrings" },
+      { name: "Beards" },
+      { name: "Moustaches" },
+      { name: "Glasses" },
+    ],
+  },
+  {
+    growEditionSizeTo: 80, // With Cap and No-Tshirt
+    layersOrder: [
+      { name: "Backgrounds" },
+      { name: "Benches" },
+      { name: "Shorts" },
+      { name: "Body" },
+      { name: "LeftWristbands" },
+      { name: "RightWristbands" },
+      { name: "LeftWristbandLogos" },
+      { name: "Neckchains" },
+      { name: "Rackets" },
+      { name: "Hands" },
+      { name: "FacialExpressions" },
+      { name: "Piercings" },
+      { name: "Earrings" },
+      { name: "Beards" },
+      { name: "Moustaches" },
+      { name: "Glasses" },
+      { name: "Caps" },
+    ],
+  },
 ];
 
-const shuffleLayerConfigurations = true;
+const shuffleLayerConfigurations = false;
 
 const debugLogs = false;
 
