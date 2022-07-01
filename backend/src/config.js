@@ -14,7 +14,7 @@ const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 const layerConfigurations = [
 
   {
-    growEditionSizeTo: 10, //With Hair and Jackets
+    growEditionSizeTo: 60, //With Hair and Jackets
     layersOrder: [
       { name: "Backgrounds" },
       { name: "Benches" },
@@ -38,7 +38,7 @@ const layerConfigurations = [
     ],
   },
   {
-    growEditionSizeTo: 20, //With Hair and Jackets + ChinPiercing(NoBeard)
+    growEditionSizeTo: 120, //With Hair and Jackets + ChinPiercing(NoBeard)
     layersOrder: [
       { name: "Backgrounds" },
       { name: "Benches" },
@@ -62,7 +62,7 @@ const layerConfigurations = [
     ],
   },
   {
-    growEditionSizeTo: 30, // With Hair and Hoodies
+    growEditionSizeTo: 180, // With Hair and Hoodies
     layersOrder: [
       { name: "Backgrounds" },
       { name: "Benches" },
@@ -86,7 +86,7 @@ const layerConfigurations = [
     ],
   },
   {
-    growEditionSizeTo: 40, // With Hair and Hoodies + ChinPiercing(NoBeard)
+    growEditionSizeTo: 240, // With Hair and Hoodies + ChinPiercing(NoBeard)
     layersOrder: [
       { name: "Backgrounds" },
       { name: "Benches" },
@@ -110,31 +110,7 @@ const layerConfigurations = [
     ],
   },
   {
-    growEditionSizeTo: 50, // With Cap and Jackets
-    layersOrder: [
-      { name: "Backgrounds" },
-      { name: "Benches" },
-      { name: "Shorts" },
-      { name: "Body" },
-      { name: "LeftWristbands" },
-      { name: "RightWristbands" },
-      { name: "LeftWristbandLogos" },
-      { name: "Tshirts" },
-      { name: "Neckchains" },
-      { name: "Jackets" },
-      { name: "Rackets" },
-      { name: "Hands" },
-      { name: "FacialExpressions" },
-      { name: "Earrings" },
-      { name: "Beards" },
-      { name: "Moustaches" },
-      { name: "NosePiercing" },
-      { name: "Glasses" },
-      { name: "Caps" },
-    ],
-  },
-  {
-    growEditionSizeTo: 60, // With Cap and Jackets + ChinPiercing (No Beard)
+    growEditionSizeTo: 300, // With Cap and Jackets
     layersOrder: [
       { name: "Backgrounds" },
       { name: "Benches" },
@@ -149,6 +125,30 @@ const layerConfigurations = [
       { name: "Rackets" },
       { name: "Hands" },
       { name: "FacialExpressions" },
+      { name: "Earrings" },
+      { name: "Beards" },
+      { name: "Moustaches" },
+      { name: "NosePiercing" },
+      { name: "Glasses" },
+      { name: "Caps" },
+    ],
+  },
+  {
+    growEditionSizeTo: 360, // With Cap and Jackets + ChinPiercing (No Beard)
+    layersOrder: [
+      { name: "Backgrounds" },
+      { name: "Benches" },
+      { name: "Shorts" },
+      { name: "Body" },
+      { name: "LeftWristbands" },
+      { name: "RightWristbands" },
+      { name: "LeftWristbandLogos" },
+      { name: "Tshirts" },
+      { name: "Neckchains" },
+      { name: "Jackets" },
+      { name: "Rackets" },
+      { name: "Hands" },
+      { name: "FacialExpressions" },
       { name: "ChinPiercing" },
       { name: "Earrings" },
       { name: "Moustaches" },
@@ -158,7 +158,7 @@ const layerConfigurations = [
     ],
   },
   {
-    growEditionSizeTo: 70, // With Cap and Hoodies
+    growEditionSizeTo: 420, // With Cap and Hoodies
     layersOrder: [
       { name: "Backgrounds" },
       { name: "Benches" },
@@ -182,7 +182,7 @@ const layerConfigurations = [
     ],
   },
   {
-    growEditionSizeTo: 80, // With Cap and Hoodies + ChinPiercing (No Beard)
+    growEditionSizeTo: 480, // With Cap and Hoodies + ChinPiercing (No Beard)
     layersOrder: [
       { name: "Backgrounds" },
       { name: "Benches" },
@@ -207,7 +207,7 @@ const layerConfigurations = [
     ],
   },
   {
-    growEditionSizeTo: 90, // With Hair, Hoodies and No T-shirts
+    growEditionSizeTo: 540, // With Hair, Hoodies and No T-shirts
     layersOrder: [
       { name: "Backgrounds" },
       { name: "Benches" },
@@ -230,7 +230,7 @@ const layerConfigurations = [
     ],
   },
   {
-    growEditionSizeTo: 100, // With Hair, Hoodies and No T-shirts + ChinPiercing(NoBeard)
+    growEditionSizeTo: 600, // With Hair, Hoodies and No T-shirts + ChinPiercing(NoBeard)
     layersOrder: [
       { name: "Backgrounds" },
       { name: "Benches" },
@@ -253,7 +253,7 @@ const layerConfigurations = [
     ],
   },
   {
-    growEditionSizeTo: 110, // With Cap, Hoodies and No-Tshirts
+    growEditionSizeTo: 660, // With Cap, Hoodies and No-Tshirts
     layersOrder: [
       { name: "Backgrounds" },
       { name: "Benches" },
@@ -276,7 +276,7 @@ const layerConfigurations = [
     ],
   },
   {
-    growEditionSizeTo: 120, // With Cap, Hoodies and No-Tshirts + ChinPiercing(NoBeard)
+    growEditionSizeTo: 720, // With Cap, Hoodies and No-Tshirts + ChinPiercing(NoBeard)
     layersOrder: [
       { name: "Backgrounds" },
       { name: "Benches" },
@@ -299,7 +299,7 @@ const layerConfigurations = [
     ],
   },
   {
-    growEditionSizeTo: 130, //With Hair and No-Tshirt
+    growEditionSizeTo: 780, //With Hair and No-Tshirt
     layersOrder: [
       { name: "Backgrounds" },
       { name: "Benches" },
@@ -321,7 +321,7 @@ const layerConfigurations = [
     ],
   },
   {
-    growEditionSizeTo: 140, //With Hair and No-Tshirt + ChinPiercing (NoBeard)
+    growEditionSizeTo: 840, //With Hair and No-Tshirt + ChinPiercing (NoBeard)
     layersOrder: [
       { name: "Backgrounds" },
       { name: "Benches" },
@@ -343,7 +343,7 @@ const layerConfigurations = [
     ],
   },
   {
-    growEditionSizeTo: 150, // With Cap and No-Tshirt
+    growEditionSizeTo: 930, // With Cap and No-Tshirt
     layersOrder: [
       { name: "Backgrounds" },
       { name: "Benches" },
@@ -365,7 +365,7 @@ const layerConfigurations = [
     ],
   },
   {
-    growEditionSizeTo: 160, // With Cap and No-Tshirt + ChinPiercing (NoBeard)
+    growEditionSizeTo: 1000, // With Cap and No-Tshirt + ChinPiercing (NoBeard)
     layersOrder: [
       { name: "Backgrounds" },
       { name: "Benches" },
