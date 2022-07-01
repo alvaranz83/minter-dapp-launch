@@ -149,12 +149,12 @@ const layerConfigurations = [
       { name: "Rackets" },
       { name: "Hands" },
       { name: "FacialExpressions" },
-      { name: "ChinPiercing" },
       { name: "Earrings" },
       { name: "Moustaches" },
       { name: "NosePiercing" },
       { name: "Glasses" },
       { name: "Caps" },
+      { name: "ChinPiercing" },
     ],
   },
   {
@@ -197,13 +197,12 @@ const layerConfigurations = [
       { name: "Hands" },
       { name: "Hoodies" },
       { name: "FacialExpressions" },
-      { name: "ChinPiercing" },
       { name: "Earrings" },
-      { name: "Beards" },
       { name: "Moustaches" },
       { name: "NosePiercing" },
       { name: "Glasses" },
       { name: "Caps" },
+      { name: "ChinPiercing" },
     ],
   },
   {
@@ -290,12 +289,12 @@ const layerConfigurations = [
       { name: "Hands" },
       { name: "Hoodies" },
       { name: "FacialExpressions" },
-      { name: "ChinPiercing" },
       { name: "Earrings" },
       { name: "Moustaches" },
       { name: "NosePiercing" },
       { name: "Glasses" },
       { name: "Caps" },
+      { name: "ChinPiercing" },
     ],
   },
   {
@@ -378,17 +377,17 @@ const layerConfigurations = [
       { name: "Rackets" },
       { name: "Hands" },
       { name: "FacialExpressions" },
-      { name: "ChinPiercing" },
       { name: "Earrings" },
       { name: "Moustaches" },
       { name: "NosePiercing" },
       { name: "Glasses" },
       { name: "Caps" },
+      { name: "ChinPiercing" },
     ],
   },
 ];
 
-const shuffleLayerConfigurations = false;
+const shuffleLayerConfigurations = true;
 
 const debugLogs = false;
 
