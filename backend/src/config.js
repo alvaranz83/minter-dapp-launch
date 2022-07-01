@@ -162,7 +162,7 @@ const layerConfigurations = [
     ],
   },
   {
-    growEditionSizeTo: 70, //With Hair and No-Tshirt
+    growEditionSizeTo: 80, //With Hair and No-Tshirt
     layersOrder: [
       { name: "Backgrounds" },
       { name: "Benches" },
@@ -185,7 +185,7 @@ const layerConfigurations = [
     ],
   },
   {
-    growEditionSizeTo: 80, // With Cap and No-Tshirt
+    growEditionSizeTo: 90, // With Cap and No-Tshirt
     layersOrder: [
       { name: "Backgrounds" },
       { name: "Benches" },
