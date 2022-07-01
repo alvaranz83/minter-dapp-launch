@@ -39,7 +39,7 @@ const layerConfigurations = [
     ],
   },
   {
-    growEditionSizeTo: 10, //With Hair and Jackets + ChinPiercing(NoBeard)
+    growEditionSizeTo: 20, //With Hair and Jackets + ChinPiercing(NoBeard)
     layersOrder: [
       { name: "Backgrounds" },
       { name: "Benches" },
@@ -63,7 +63,7 @@ const layerConfigurations = [
     ],
   },
   {
-    growEditionSizeTo: 20, // With Hair and Hoodies
+    growEditionSizeTo: 30, // With Hair and Hoodies
     layersOrder: [
       { name: "Backgrounds" },
       { name: "Benches" },
@@ -88,7 +88,7 @@ const layerConfigurations = [
     ],
   },
   {
-    growEditionSizeTo: 20, // With Hair and Hoodies + ChinPiercing(NoBeard)
+    growEditionSizeTo: 40, // With Hair and Hoodies + ChinPiercing(NoBeard)
     layersOrder: [
       { name: "Backgrounds" },
       { name: "Benches" },
@@ -112,32 +112,7 @@ const layerConfigurations = [
     ],
   },
   {
-    growEditionSizeTo: 30, // With Cap and Jackets
-    layersOrder: [
-      { name: "Backgrounds" },
-      { name: "Benches" },
-      { name: "Shorts" },
-      { name: "Body" },
-      { name: "LeftWristbands" },
-      { name: "RightWristbands" },
-      { name: "LeftWristbandLogos" },
-      { name: "Tshirts" },
-      { name: "Neckchains" },
-      { name: "Jackets" },
-      { name: "Rackets" },
-      { name: "Hands" },
-      { name: "FacialExpressions" },
-      { name: "ChinPiercing" },
-      { name: "Earrings" },
-      { name: "Beards" },
-      { name: "Moustaches" },
-      { name: "NosePiercing" },
-      { name: "Glasses" },
-      { name: "Caps" },
-    ],
-  },
-  {
-    growEditionSizeTo: 30, // With Cap and Jackets + ChinPiercing (No Beard)
+    growEditionSizeTo: 50, // With Cap and Jackets
     layersOrder: [
       { name: "Backgrounds" },
       { name: "Benches" },
@@ -154,6 +129,7 @@ const layerConfigurations = [
       { name: "FacialExpressions" },
       { name: "ChinPiercing" },
       { name: "Earrings" },
+      { name: "Beards" },
       { name: "Moustaches" },
       { name: "NosePiercing" },
       { name: "Glasses" },
@@ -161,7 +137,31 @@ const layerConfigurations = [
     ],
   },
   {
-    growEditionSizeTo: 40, // With Cap and Hoodies
+    growEditionSizeTo: 60, // With Cap and Jackets + ChinPiercing (No Beard)
+    layersOrder: [
+      { name: "Backgrounds" },
+      { name: "Benches" },
+      { name: "Shorts" },
+      { name: "Body" },
+      { name: "LeftWristbands" },
+      { name: "RightWristbands" },
+      { name: "LeftWristbandLogos" },
+      { name: "Tshirts" },
+      { name: "Neckchains" },
+      { name: "Jackets" },
+      { name: "Rackets" },
+      { name: "Hands" },
+      { name: "FacialExpressions" },
+      { name: "ChinPiercing" },
+      { name: "Earrings" },
+      { name: "Moustaches" },
+      { name: "NosePiercing" },
+      { name: "Glasses" },
+      { name: "Caps" },
+    ],
+  },
+  {
+    growEditionSizeTo: 70, // With Cap and Hoodies
     layersOrder: [
       { name: "Backgrounds" },
       { name: "Benches" },
@@ -186,7 +186,7 @@ const layerConfigurations = [
     ],
   },
   {
-    growEditionSizeTo: 40, // With Cap and Hoodies + ChinPiercing (No Beard)
+    growEditionSizeTo: 80, // With Cap and Hoodies + ChinPiercing (No Beard)
     layersOrder: [
       { name: "Backgrounds" },
       { name: "Benches" },
@@ -211,7 +211,7 @@ const layerConfigurations = [
     ],
   },
   {
-    growEditionSizeTo: 50, // With Hair, Hoodies and No T-shirts
+    growEditionSizeTo: 90, // With Hair, Hoodies and No T-shirts
     layersOrder: [
       { name: "Backgrounds" },
       { name: "Benches" },
@@ -235,7 +235,7 @@ const layerConfigurations = [
     ],
   },
   {
-    growEditionSizeTo: 50, // With Hair, Hoodies and No T-shirts + ChinPiercing(NoBeard)
+    growEditionSizeTo: 100, // With Hair, Hoodies and No T-shirts + ChinPiercing(NoBeard)
     layersOrder: [
       { name: "Backgrounds" },
       { name: "Benches" },
@@ -258,7 +258,7 @@ const layerConfigurations = [
     ],
   },
   {
-    growEditionSizeTo: 60, // With Cap, Hoodies and No-Tshirts
+    growEditionSizeTo: 110, // With Cap, Hoodies and No-Tshirts
     layersOrder: [
       { name: "Backgrounds" },
       { name: "Benches" },
@@ -271,97 +271,6 @@ const layerConfigurations = [
       { name: "Rackets" },
       { name: "Hands" },
       { name: "Hoodies" },
-      { name: "FacialExpressions" },
-      { name: "ChinPiercing" },
-      { name: "Earrings" },
-      { name: "Beards" },
-      { name: "Moustaches" },
-      { name: "NosePiercing" },
-      { name: "Glasses" },
-      { name: "Caps" },
-    ],
-  },
-  {
-    growEditionSizeTo: 60, // With Cap, Hoodies and No-Tshirts + ChinPiercing(NoBeard)
-    layersOrder: [
-      { name: "Backgrounds" },
-      { name: "Benches" },
-      { name: "Shorts" },
-      { name: "Body" },
-      { name: "LeftWristbands" },
-      { name: "RightWristbands" },
-      { name: "LeftWristbandLogos" },
-      { name: "Neckchains" },
-      { name: "Rackets" },
-      { name: "Hands" },
-      { name: "Hoodies" },
-      { name: "FacialExpressions" },
-      { name: "ChinPiercing" },
-      { name: "Earrings" },
-      { name: "Moustaches" },
-      { name: "NosePiercing" },
-      { name: "Glasses" },
-      { name: "Caps" },
-    ],
-  },
-  {
-    growEditionSizeTo: 80, //With Hair and No-Tshirt
-    layersOrder: [
-      { name: "Backgrounds" },
-      { name: "Benches" },
-      { name: "Shorts" },
-      { name: "Body" },
-      { name: "LeftWristbands" },
-      { name: "RightWristbands" },
-      { name: "LeftWristbandLogos" },
-      { name: "Neckchains" },
-      { name: "Rackets" },
-      { name: "Hands" },
-      { name: "FacialExpressions" },
-      { name: "ChinPiercing" },
-      { name: "Hair" },
-      { name: "Earrings" },
-      { name: "Beards" },
-      { name: "Moustaches" },
-      { name: "NosePiercing" },
-      { name: "Glasses" },
-    ],
-  },
-  {
-    growEditionSizeTo: 80, //With Hair and No-Tshirt + ChinPiercing (NoBeard)
-    layersOrder: [
-      { name: "Backgrounds" },
-      { name: "Benches" },
-      { name: "Shorts" },
-      { name: "Body" },
-      { name: "LeftWristbands" },
-      { name: "RightWristbands" },
-      { name: "LeftWristbandLogos" },
-      { name: "Neckchains" },
-      { name: "Rackets" },
-      { name: "Hands" },
-      { name: "FacialExpressions" },
-      { name: "ChinPiercing" },
-      { name: "Hair" },
-      { name: "Earrings" },
-      { name: "Moustaches" },
-      { name: "NosePiercing" },
-      { name: "Glasses" },
-    ],
-  },
-  {
-    growEditionSizeTo: 90, // With Cap and No-Tshirt
-    layersOrder: [
-      { name: "Backgrounds" },
-      { name: "Benches" },
-      { name: "Shorts" },
-      { name: "Body" },
-      { name: "LeftWristbands" },
-      { name: "RightWristbands" },
-      { name: "LeftWristbandLogos" },
-      { name: "Neckchains" },
-      { name: "Rackets" },
-      { name: "Hands" },
       { name: "FacialExpressions" },
       { name: "ChinPiercing" },
       { name: "Earrings" },
@@ -373,7 +282,98 @@ const layerConfigurations = [
     ],
   },
   {
-    growEditionSizeTo: 90, // With Cap and No-Tshirt + ChinPiercing (NoBeard)
+    growEditionSizeTo: 120, // With Cap, Hoodies and No-Tshirts + ChinPiercing(NoBeard)
+    layersOrder: [
+      { name: "Backgrounds" },
+      { name: "Benches" },
+      { name: "Shorts" },
+      { name: "Body" },
+      { name: "LeftWristbands" },
+      { name: "RightWristbands" },
+      { name: "LeftWristbandLogos" },
+      { name: "Neckchains" },
+      { name: "Rackets" },
+      { name: "Hands" },
+      { name: "Hoodies" },
+      { name: "FacialExpressions" },
+      { name: "ChinPiercing" },
+      { name: "Earrings" },
+      { name: "Moustaches" },
+      { name: "NosePiercing" },
+      { name: "Glasses" },
+      { name: "Caps" },
+    ],
+  },
+  {
+    growEditionSizeTo: 130, //With Hair and No-Tshirt
+    layersOrder: [
+      { name: "Backgrounds" },
+      { name: "Benches" },
+      { name: "Shorts" },
+      { name: "Body" },
+      { name: "LeftWristbands" },
+      { name: "RightWristbands" },
+      { name: "LeftWristbandLogos" },
+      { name: "Neckchains" },
+      { name: "Rackets" },
+      { name: "Hands" },
+      { name: "FacialExpressions" },
+      { name: "ChinPiercing" },
+      { name: "Hair" },
+      { name: "Earrings" },
+      { name: "Beards" },
+      { name: "Moustaches" },
+      { name: "NosePiercing" },
+      { name: "Glasses" },
+    ],
+  },
+  {
+    growEditionSizeTo: 140, //With Hair and No-Tshirt + ChinPiercing (NoBeard)
+    layersOrder: [
+      { name: "Backgrounds" },
+      { name: "Benches" },
+      { name: "Shorts" },
+      { name: "Body" },
+      { name: "LeftWristbands" },
+      { name: "RightWristbands" },
+      { name: "LeftWristbandLogos" },
+      { name: "Neckchains" },
+      { name: "Rackets" },
+      { name: "Hands" },
+      { name: "FacialExpressions" },
+      { name: "ChinPiercing" },
+      { name: "Hair" },
+      { name: "Earrings" },
+      { name: "Moustaches" },
+      { name: "NosePiercing" },
+      { name: "Glasses" },
+    ],
+  },
+  {
+    growEditionSizeTo: 150, // With Cap and No-Tshirt
+    layersOrder: [
+      { name: "Backgrounds" },
+      { name: "Benches" },
+      { name: "Shorts" },
+      { name: "Body" },
+      { name: "LeftWristbands" },
+      { name: "RightWristbands" },
+      { name: "LeftWristbandLogos" },
+      { name: "Neckchains" },
+      { name: "Rackets" },
+      { name: "Hands" },
+      { name: "FacialExpressions" },
+      { name: "ChinPiercing" },
+      { name: "Earrings" },
+      { name: "Beards" },
+      { name: "Moustaches" },
+      { name: "NosePiercing" },
+      { name: "Glasses" },
+      { name: "Caps" },
+    ],
+  },
+  {
+    growEditionSizeTo: 160, // With Cap and No-Tshirt + ChinPiercing (NoBeard)
     layersOrder: [
       { name: "Backgrounds" },
       { name: "Benches" },
