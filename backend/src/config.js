@@ -8,7 +8,7 @@ const network = NETWORK.eth;
 
 // General metadata for Ethereum
 const namePrefix = "PadelManiaks";
-const description = "PadelManiaks is the first NFT Club dedicated to Padel, the fastest growing sport in the world. You can get exclusive access to Padel Perks, Services and Rewards around the World by holding one or more of our unique 5,000 Padelmaniak NFTs. Holder Utility is the #1 Goal of the PadelManiaks.";
+const description = "PadelManiaks is the first NFT Club dedicated to Padel, the fastest growing sport in the world. You can get exclusive access to Padel Perks, Services and Rewards around the World by holding one or more of our unique 5,000 Padelmaniak NFTs. Holder Utility is the #1 Goal of PadelManiaks.";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 const layerConfigurations = [
