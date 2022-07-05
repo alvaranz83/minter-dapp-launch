@@ -73,6 +73,7 @@ const updateConnectStatus = async () => {
     spinner.classList.remove('hidden');
     window.contract = new web3.eth.Contract(abi, contractAddress);
     console.log (contractAddress); /// See if the contract address is retrieved
+    console.log (abi); /// See if the contract address is retrieved
     loadInfo();
   } else {
     onboardButton.innerText = "Connect MetaMask!";
