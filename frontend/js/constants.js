@@ -3,7 +3,7 @@ const chain = 'polygon'; // rinkeby, polygon, or ethereum
 
 const welcome_h1 = "Welcome to the PadelManiaks NFT Project!!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
-const welcome_p = 'PadelManiaks is the first NFT Club dedicated to Padel, the fastest growing sport in the world. You can get exclusive access to Padel Perks, Services and Rewards around the World by holding one or more of our unique 5,000 Padelmaniak NFTs. Holder Utility is the #1 Goal of PadelManiaks.';
+const welcome_p = 'PadelManiaks is the first NFT Club dedicated to Padel, the fastest growing sport in the world. Get exclusive access to Padel Rewards, Perks and Padel Networking Services around the World by holding one or more of our unique Padelmaniak NFTs. Holder Utility is the #1 Goal of PadelManiaks.';
 const h1_presale_coming_soon = "PadelManiaks NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!!";
@@ -12,7 +12,7 @@ const h2_presale_mint = "Public Minting Countdown";
 const p_presale_coming_soon = "We are working hard to launch the PadelManiaks NFT Collection. Stay tuned for updates!";
 const p_presale_mint_not_whitelisted = "You are not whitelisted for the pre-sale.. 😢";
 const p_presale_mint_whitelisted = "You're on the whitelist for the pre-sale! 🎉";
-const p_presale_mint_already_minted = "You've already claimed your whitelist mint. Thank you! 🎉";
+const p_presale_mint_already_minted = "You've already claimed your whitelist mint. Thank you! You will be able to mint more Padelmaniaks once the Public sale is open. 🎉";
 const p_public_mint = "No whitelist needed. Public minting is now open! 🎉";
 const button_presale_coming_soon = "Get on the Whitelist";
 const button_presale_mint_whitelisted = "Mint Your Special PAdelManiak NFT";
