@@ -72,6 +72,7 @@ const updateConnectStatus = async () => {
     // SHOW SPINNER
     spinner.classList.remove('hidden');
     window.contract = new web3.eth.Contract(abi, contractAddress);
+    console.log (ContractAddress); /// See if the contract address is retrieved
     loadInfo();
   } else {
     onboardButton.innerText = "Connect MetaMask!";
@@ -178,7 +179,7 @@ async function loadInfo() {
     startTime = window.info.runtimeConfig.publicMintStart;
     mainHeading.innerText = h1_presale_mint;
     subHeading.innerText = h2_presale_mint;
-    
+
     try {
       // CHECK IF WHITELISTED
       const merkleData = await fetch(
@@ -233,7 +234,7 @@ async function loadInfo() {
   const maxPerMint = document.getElementById("maxPerMint");
   const totalSupply = document.getElementById("totalSupply");
   const mintInput = document.getElementById("mintInput");
-  
+
   pricePerMint.innerText = `${price} ${priceType}`;
   maxPerMint.innerText = `${info.deploymentConfig.tokensPerMint}`;
   totalSupply.innerText = `${info.deploymentConfig.maxSupply}`;
@@ -286,7 +287,7 @@ function setTotalPrice() {
     return;
   }
   const totalPriceWei = BigInt(info.deploymentConfig.mintPrice) * BigInt(mintInputValue);
-  
+
   let priceType = '';
   if(chain === 'rinkeby' || chain === 'ethereum') {
     priceType = 'ETH';
